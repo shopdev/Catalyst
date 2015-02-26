@@ -1,0 +1,14 @@
+/* Notes: viewCat Sub Cat Contents */
+.catContents {
+background-image:url(../styleImages/backgrounds/cat_contents.gif);
+}
+
+/* Notes: Category Menu List Item (1st Level) - Open */
+ul.catTreeTop li.currentCat {
+padding-top:0px;
+}
+
+/* Notes: Fancy box - full transparency */
+div#fancy_overlay {
+background-color:transparent;
+}

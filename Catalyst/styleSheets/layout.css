@@ -1,0 +1,1631 @@
+/* Notes: No Notes */
+html {
+overflow-y:scroll;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/* Remove Safari's horid blue shadow */
+input {
+	outline: none
+}
+
+/* Notes: No Notes */
+body {
+text-align:left;
+font-size:12px;
+font-family:"Segoe UI", "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-style:normal;
+font-weight:400;
+text-decoration:none;
+color:#333;
+margin:0;
+background:#333333 url(../styleImages/backgrounds/pageBG.gif) repeat-x;
+}
+
+/* Notes: Generic Attribute */
+a {
+text-decoration:none;
+}
+
+/* Notes: FireFox - remove dotted border */
+a:active { 
+outline: none; 
+}
+
+/* Notes: FireFox - remove dotted border */
+a:focus { 
+-moz-outline-style: none; 
+}
+
+/* Notes: No Notes */
+#pageSurround {
+width:967px;
+background:transparent url(../styleImages/backgrounds/pageBG_Mid.png) left repeat-y;
+margin:0 auto;
+margin-top:18px;
+}
+
+/* Notes: No Notes */
+#subSurround {
+background:url(../styleImages/backgrounds/TOP_BG.gif) top center no-repeat scroll;
+height:100%;
+margin:0;
+padding:0;
+}
+
+/* Notes: No Notes */
+#pageBottom {
+background:url(../styleImages/backgrounds/pageBG_Bottom.png) center top no-repeat;
+width:967px;
+height:32px;
+margin:-7px auto 0;
+}
+
+/* Notes: No Notes */
+#topHeader {
+height:130px;
+margin-bottom:10px;
+position:relative;
+}
+
+/* Notes: Sample Banner - "The Evolution Of Technology" */
+#banner {
+margin-bottom:20px;
+border:none;
+}
+
+/* Notes: No Notes */
+a.ajaxCart {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:46px;
+color:#0a76bb;
+display:block;
+float:right;
+margin-top:-4px;
+text-decoration:none;
+}
+
+/* Notes: No Notes */
+a.ajaxCart:hover {
+text-decoration:none;
+color:#0a76bb;
+}
+
+/* Notes: No Notes */
+#shoppingCart {
+width:220px;
+height:50px;
+position:absolute;
+top:58px;
+right:42px;
+overflow:hidden;
+}
+
+/* Notes: No Notes */
+#yourAccount {
+width:100px;
+height:24px;
+position:absolute;
+top:35px;
+right:72px;
+background:url(../styleImages/backgrounds/yourAccount.gif) top left no-repeat;
+padding-top:2px;
+padding-left:10px;
+}
+
+/* Notes: "Your Account" text link */
+#yourAccount a {
+color:#3A89C9;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+text-decoration:none;
+line-height:15px;
+}
+
+/* Notes: "Your Account" text link - Hover */
+#yourAccount a:hover {
+color:#FF9211;
+text-decoration:none;
+}
+
+/* Notes: No Notes */
+#searchBar {
+width:364px;
+height:39px;
+background:url(../styleImages/backgrounds/searchBar_Mid.gif) top repeat-x;
+position:absolute;
+padding:0px;
+top:61px;
+right:268px;
+}
+
+/* Notes: CC4 - Advanced Search Link */
+.advancedSearch {
+color:#3A89C9;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+display:block;
+}
+
+/* Notes: CC4 - Advanced Search Link:Hover */
+.advancedSearch:hover {
+color:#FF9211;
+text-decoration:none;
+}
+
+/* Notes: CC4 - Advanced Search Container */
+#advancedSearch {
+width:123px;
+height:24px;
+position:absolute;
+right:-29px;
+top:-26px;
+padding-bottom:40px;
+padding-top:2px;
+padding-left:10px;
+background:url(../styleImages/backgrounds/advancedSearch.gif) top left no-repeat;
+display:none;
+}
+
+/* Notes: No Notes */
+#searchBar-Left {
+position:absolute;
+left:0;
+top:0;
+width:7px;
+height:39px;
+background:url(../styleImages/backgrounds/searchBar_Left.gif) top no-repeat;
+}
+
+/* Notes: No Notes */
+#searchBar-Right {
+position:absolute;
+right:0;
+top:0;
+width:7px;
+height:39px;
+background:url(../styleImages/backgrounds/searchBar_Right.gif) top no-repeat;
+}
+
+/* Notes: No Notes */
+.searchForm {
+position:absolute;
+top:9px;
+left:10px;
+height:18px;
+width:263px;
+border:1px solid #b3b3b3;
+padding-left:4px;
+padding-top:1px;
+color:#4F4F4F;
+}
+
+/* Notes: No Notes */
+#btnSearch {
+width:68px;
+height:21px;
+background:url(../styleImages/backgrounds/searchBtn.gif) top left repeat-x;
+border:none;
+position:absolute;
+right:10px;
+top:9px;
+}
+
+/* Notes: No Notes */
+#btnSearch:hover {
+cursor:pointer;
+}
+
+/* Notes: Left Column */
+.colLeft {
+width:181px;
+margin-left:40px;
+float:left;
+/* START: Double margin IE6 fix */
+display:inline;
+/* END: Double margin IE6 fix */
+}
+
+/* Notes: Center Column */
+.colMid {
+width:685px;
+float:left;
+margin-left:18px;
+}
+
+/* Notes: Page Footer */
+.footer {
+width:887px;
+height:100px;
+background:url(../styleImages/backgrounds/footer.gif) top center no-repeat;
+margin:0 auto;
+margin-top:20px;
+text-align:center;
+padding-top:16px;
+color:#999999;
+line-height:20px;
+}
+
+/* Notes: Page Footer Link */
+.footer a {
+text-decoration:none;
+color:#999999;
+}
+
+.boxContent h1 {
+height:24px;
+background:url(../styleImages/backgrounds/pageTitle.gif) repeat-x;
+border:1px solid #b3b3b3;
+width:668px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+text-transform:uppercase;
+margin:0;
+margin-top:1px;
+padding-top:6px;
+padding-left:18px;
+word-spacing:5px;
+font-weight:500;
+}
+
+/* Notes: Products SideBox Title */
+.catTitleLeft {
+width:181px;
+height:33px;
+margin:0;
+background-color:#FCFCFC;
+}
+
+/* Notes: SideBox Titles */
+.boxTitleLeft {
+margin:0;
+border:1px solid #bdbcbd;
+border-bottom:none;
+background-color:#FCFCFC;
+}
+
+/* Notes: SideBox Title Images */
+.boxTitleImg {
+padding:10px;
+padding-right:0px;
+}
+
+/* Notes: General SideBox */
+.boxContentLeft {
+width:159px;
+border:1px solid #bdbcbd;
+border-top:none;
+border-bottom:none;
+margin:0;
+margin-bottom:23px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+background:#FCFCFC url(../styleImages/backgrounds/sideBoxBG_Bottom.gif) bottom center no-repeat;
+}
+
+/* Notes: Popular Products SideBox */
+.popular {
+width:137px;
+padding-left:28px;
+padding-right:14px;
+}
+
+/* Notes: General SideBox List */
+.boxContentLeft ul {
+margin:0;
+list-style:none;
+padding-left:0px;
+}
+
+/* Notes: Popular Products Ordered List */
+.boxContentLeft ol {
+margin:0;
+list-style:decimal;
+padding:0px;
+}
+
+/* Notes: Popular Products Ordered List Item */
+.boxContentLeft ol li {
+padding:0px;
+margin:0px;
+padding-top:3px;
+padding-bottom:3px;
+font: italic 12px Georgia, Times, serif;
+color: #999999;
+text-align:left;
+/* START: IE Margin Fix */
+_margin-left:4px;
+/* START: End Margin Fix */
+}
+
+/* Notes: Popular Products Ordered List Item - Hover */
+.boxContentLeft ol li:hover {
+color: #ff8a00;
+}
+
+/* Notes: Popular Products Ordered List Item Link */
+.boxContentLeft ol li a {
+padding:0;
+margin:0;
+font: normal 11px Arial, Helvetica, sans-serif;
+color:#333333;
+display:inline;
+}
+
+/* Notes: General SideBox List Item */
+.boxContentLeft ul li {
+padding-top:3px;
+padding-bottom:3px;
+}
+
+/* Notes: General SideBox List Item Link */
+.boxContentLeft ul li a {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+}
+
+/* Notes: Products SideBox */
+.catContentLeft {
+width:174px;
+border:1px solid #bdbcbd;
+border-top:none;
+margin:0;
+margin-bottom:23px;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:5px;
+background-color:#FCFCFC;
+}
+
+/* Notes: Default Category Menu List */
+ul.catTreeTop {
+margin:0;
+list-style:none;
+padding-left:0px;
+}
+
+/* Notes: Hide CC4's pathetic sub-category structure */
+ul.ul-nav {
+	display:none;
+}
+
+/* Notes: Default Category Menu List Item (1st Level) */
+ul.catTreeTop li {
+padding-top:3px;
+padding-bottom:3px;
+padding-left:5px !important;
+}
+
+/* Notes: Default Category Menu List Item Link (1st Level) */
+ul.catTreeTop li a {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333333;
+}
+
+/*****************************************
+START: ADVANCED EXPANDING MENU - BY MILOS
+*****************************************/
+
+/* Notes: Category Menu List Item (1st Level) - Open */
+ul.catTreeTop li.currentCat {
+background:#F1F1F1 url(../styleImages/backgrounds/subCatNavBG.gif) top repeat-x;
+border:1px solid #aeaeae;
+margin-right:5px;
+padding-top:1px;
+margin-top:3px;
+margin-bottom:3px;
+}
+
+/* Notes: Category Menu (2nd Level) - List */
+ul.catTreeTop li.currentCat ul {
+list-style:none;
+padding:0;
+padding-bottom:3px;
+margin-top:7px;
+margin-left:0px;
+}
+
+/* Notes: Category Menu (2nd Level) - List Item */
+ul.catTreeTop li.currentCat ul li {
+padding:0;
+padding-top:3px;
+padding-bottom:3px;
+}
+
+/* Notes: Category Menu (2nd Level) - List Item (Open) */
+ul.catTreeTop li.currentCat ul li.currentCat {
+padding:0;
+padding-top:1px;
+padding-bottom:3px;
+margin-left:3px;
+margin-top:10px;
+margin-right:8px;
+background-color:#FCFCFC;
+}
+
+/* Notes: Category Menu (2nd Level) - List Item Link */
+ul.catTreeTop li.currentCat ul li a {
+font-size:10px;
+}
+
+/* Notes: Category Menu (3rd Level) - List */
+ul.catTreeTop li.currentCat ul li.currentCat ul {
+padding:0;
+}
+
+/*****************************************
+END: ADVANCED EXPANDING MENU - BY MILOS
+*****************************************/
+
+/*****************************************
+START: STANDARD CC4 EXPANDING MENU
+*****************************************/
+
+ul.ul-nav {
+	display:none;
+	list-style:none;
+	position:absolute;
+	z-index:999;
+	margin-left:150px;
+	border:1px solid #BCBCBC;
+	background:#FFF;
+	margin-top:-31px;
+	padding:7px 15px;
+	width:150px;
+}
+
+ul.catTreeTop ul.ul-nav {
+	margin-left:140px;
+}
+
+ul.catTreeTop li.bullet, ul.ul-nav li.bullet {
+	float:left;
+	width:168px;
+}
+
+ul.catTreeTop li.bullet a, ul.ul-nav li.bullet a {
+	color:#3E3E3E;
+	text-decoration:none;
+	font-style:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:3px 0px;
+	display:block;
+	width:100%;
+}
+
+ul.catTreeTop li.li-nav a:hover, ul.ul-nav li.li-nav a:hover {
+	color:#222222;
+	text-decoration:underline;
+}
+
+/*****************************************
+END: STANDARD CC4 EXPANDING MENU
+*****************************************/
+
+
+/* Notes: Sale Items Showcase */
+ul.showCase {
+width:685px;
+height:160px;
+padding:0;
+margin:0;
+margin-top:1px;
+list-style:none;
+border:1px solid #bdbcbd;
+border-bottom:none;
+background:#fdfdfd url(../styleImages/backgrounds/slideShowBG.gif) bottom repeat-x;
+}
+
+/* Notes: Sale Items Showcase Product */
+ul.showCase li.showCaseProduct {
+height:130px;
+margin:15px;
+display:none;
+background:none;
+}
+
+/* Notes: Sale Items Showcase Product Image */
+ul.showCase li.showCaseProduct div.showCaseSaleImage {
+height:130px;
+width:130px;
+float:left;
+margin-right:15px;
+}
+
+/* Notes: Sale Items Showcase Product Details Container */
+.showCaseDetails {
+width:510px;
+height:130px;
+float:left;
+color:#444444;
+font-family:"Trebuchet MS",Arial,sans-serif;
+font-size:11px;
+background:none;
+}
+
+/* Notes: Sale Items Showcase Product Title Container */
+.showCaseTitle {
+background:url(../styleImages/backgrounds/cat_mid.gif) top repeat-x;
+height:35px;
+padding-left:10px;
+padding-top:8px;
+color:#333333;
+}
+
+/* Notes: Sale Items Showcase Product Title */
+.showCaseTitle a {
+color:#333333;
+line-height:15px;
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+}
+
+/* Notes: Sale Items Showcase Sale Tag */
+.saleTag {
+background:transparent url(../styleImages/backgrounds/saleTag.gif) no-repeat scroll left top;
+color:#FFFFFF;
+font-size:14px;
+height:23px;
+margin-left:10px;
+padding-left:5px;
+padding-top:2px;
+width:125px;
+}
+
+/* Notes: Sale Items Showcase Paused Indicator */
+.paused {
+background:transparent url(../styleImages/backgrounds/paused.gif) no-repeat scroll left top;
+position:absolute;
+top:105px;
+display:none;
+height:26px;
+right:13px;
+width:27px;
+}
+
+/* Notes: Sale Items Showcase Product Description */
+.saleDesc {
+margin-left:10px;
+margin-bottom:12px;
+margin-right:10px;
+}
+
+/* Notes: Latest Product Container */
+.latestProds {
+border:1px solid #E9E9E9;
+border-left:1px solid #E9E9E9;
+float:left;
+height:240px;
+margin-bottom:20px;
+margin-right:20px;
+overflow:hidden;
+position:relative;
+text-align:center;
+width:214px;
+background:#FFFFFF url(../styleImages/backgrounds/latestProdBG.gif) repeat-x scroll bottom
+}
+
+/* Notes: Latest Product Image Container */
+.latestProdsImage {
+border-bottom:1px dotted #E9E9E9;
+height:120px;
+margin:0 auto;
+margin-bottom:10px;
+margin-top:10px;
+text-align:left;
+vertical-align:top;
+width:165px;
+}
+
+/* Notes: Latest Product Name Container */
+.latestProdsName {
+margin:15px;
+}
+
+/* Notes: Latest Product Name */
+a.txtlatestProdsName {
+color:#999999;
+font-size:110%;
+text-decoration:none;
+}
+
+/* Notes: Latest Price Container */
+.latestProdsPrice {
+bottom:15px;
+position:absolute;
+left:0;
+width:215px;
+}
+
+/* Notes: Sale Price */
+.txtSale {
+color:#ff9211;
+font-size:18px;
+font-weight:700;
+letter-spacing:-1px;
+text-align:center;
+}
+
+/* Notes: Old Price (before sale) */
+.txtOldPrice {
+color:#4D9DCB;
+font-family:Arial,Helvetica,sans-serif;
+font-size:10px;
+text-align:center;
+}
+
+/* Notes: Default Price (not on sale) */
+.txtPrice {
+color:#4D9DCB;
+float:left;
+font-size:18px;
+font-weight:700;
+text-align:center;
+}
+
+/* Notes: Mailing List Sidebox */
+.mailBox {
+border:1px solid #E1E1E1;
+color:#4F4F4F;
+float:left;
+height:18px;
+padding-left:5px;
+width:128px;
+}
+
+/* Notes: Mailing List Button */
+.btnMail {
+background:#FFFFFF url(../styleImages/backgrounds/mail_icon.gif) no-repeat scroll center;
+border:1px solid #E1E1E1;
+float:left;
+height:20px;
+margin-left:-2px;
+padding-left:4px;
+width:18px;
+}
+
+/* Notes: viewProd Top Container */
+.viewProdContainer {
+border:1px solid #F3F3F3;
+width:685px;
+margin-top:10px;
+}
+
+/* Notes: viewProd Item Details */
+.viewProdDetails {
+background-color:#F9F9F9;
+display:block;
+float:right;
+padding:25px 15px 15px;
+position:relative;
+width:310px;
+min-height:325px;
+}
+
+/* Notes: viewProd Detail Name */
+.txtDetailName {
+border-bottom:1px dotted #C3C3C3;
+color:#4F4F4F;
+font-size:14px;
+margin-bottom:5px;
+padding-bottom:3px;
+}
+
+/* Notes: viewProd Stock */
+.stockLevel {
+background:transparent url(../styleImages/backgrounds/package_green.gif) no-repeat scroll left top;
+font-size:12px;
+height:18px;
+margin-top:8px;
+padding-left:22px;
+padding-top:1px;
+}
+
+/* Notes: viewProd Product Code */
+.productCode {
+background:transparent url(../styleImages/backgrounds/asterisk_orange.gif) no-repeat scroll left top;
+font-size:12px;
+height:18px;
+margin-top:8px;
+padding-left:22px;
+padding-top:1px;
+}
+
+/* Notes: viewProd Tell a Friend */
+.tellAFriend {
+background:transparent url(../styleImages/backgrounds/user_comment.gif) no-repeat scroll left top;
+font-size:12px;
+height:18px;
+margin-top:8px;
+padding-left:22px;
+padding-top:1px;
+}
+
+/* Notes: viewProd Tell a Friend Link */
+.tellAFriend a {
+color:#333333;
+line-height:15px;
+text-decoration:none;
+}
+
+/* Notes: viewProd Social Bookmark */
+.bookmark {
+background:transparent url(../styleImages/backgrounds/star.gif) no-repeat scroll left top;
+font-size:12px;
+height:18px;
+margin-top:8px;
+padding-left:22px;
+padding-top:1px;
+}
+
+/* Notes: viewProd Product Option - Row */
+.prodOptionsTR {
+background:transparent url(../styleImages/backgrounds/dotted_arrow_light.gif) no-repeat scroll 1px 3px;
+}
+
+/* Notes: viewProd Product Option - Row Hover */
+.prodOptionsTR:hover {
+background-image:url(../styleImages/backgrounds/dotted_arrow.gif);
+}
+
+/* Notes: viewProd Product Option - Name */
+.optionName {
+float:left;
+font-size:12px;
+padding-left:18px;
+padding-right:10px;
+}
+
+/* Notes: viewProd Product Sale Price (items on sale) */
+.prodPrice {
+color:#ff9211;
+font-size:22px;
+font-weight:700;
+}
+
+/* Notes: viewProd AJAX Add To Cart - Complete */
+.AJAX-done {
+background:transparent url(../styleImages/backgrounds/ajax_done.png) no-repeat scroll center;
+display:none;
+height:22px;
+position:absolute;
+right:7px;
+top:7px;
+width:23px;
+}
+
+/* Notes: viewProd AJAX Add To Cart - Processing */
+.AJAX-process {
+background:transparent url(../styleImages/backgrounds/ajax-load_1.gif) no-repeat scroll center;
+display:none;
+height:16px;
+position:absolute;
+right:7px;
+top:7px;
+width:16px;
+}
+
+/* Notes: Add To Cart Button - background position controlled by AJAX Add To Cart callbacks */
+.addToCart {
+background:transparent url(../styleImages/backgrounds/addToCart.gif) no-repeat scroll 0% 0px;
+height:33px;
+margin-top:5px;
+width:138px;
+margin-left:2px;
+}
+
+/* Notes: Add To Cart Button (viewCat) - background position controlled by AJAX Add To Cart callbacks */
+.addToCartWhiteBG {
+background:transparent url(../styleImages/backgrounds/addToCartWhiteBG.gif) no-repeat scroll 0% 0px;
+height:33px;
+margin-top:5px;
+width:138px;
+margin-bottom:25px;
+}
+
+/* Notes: viewCat More Button */
+.more {
+background:transparent url(../styleImages/backgrounds/more.gif) no-repeat scroll 100% 0px;
+height:33px;
+margin-top:5px;
+width:80px;
+margin-bottom:25px;
+}
+
+/* Notes: Add To Cart Button - Hover */
+.addToCart:hover {
+background:transparent url(../styleImages/backgrounds/addToCart.gif) no-repeat scroll 0% -33px;
+cursor:pointer;
+}
+
+/* Notes: Add To Cart Button (viewCat) - Hover */
+.addToCartWhiteBG:hover {
+background:transparent url(../styleImages/backgrounds/addToCartWhiteBG.gif) no-repeat scroll 0% -33px;
+cursor:pointer;
+}
+
+/* Notes: viewCat More Button - Hover */
+.more:hover {
+background:transparent url(../styleImages/backgrounds/more.gif) no-repeat scroll 100% -33px;
+cursor:pointer;
+}
+
+/* Notes: viewCat Pagination Container */
+.pagination {
+margin-top:15px;
+padding-bottom:5px;
+padding-top:5px;
+text-align:right;
+width:100%;
+}
+
+/* Notes: Product Sort Container - CC4 */
+#sort {
+margin-top:10px;
+}
+
+/* Notes: viewCat Pagination Page */
+.txtLink, .txtLinkCurrent {
+background:url(../styleImages/backgrounds/page_gradient.jpg) repeat-x bottom;
+border:1px solid #D3D3D3;
+color:#336699;
+font-size:11px;
+margin:0pt 0pt 0pt 2px;
+padding:2px 5px;
+text-decoration:none;
+}
+
+.txtLink:hover {
+border:1px solid #F89821;
+}
+
+/* Notes: viewCat Pagination (Current Page) */
+.txtLinkCurrent {
+background:#F89821 none repeat scroll 0%;
+border:1px solid #F89821;
+color:#FFFFFF;
+}
+
+/* Notes: viewCat Sub Cats Container */
+#subCats {
+border:1px solid #E8E7E7;
+float:left;
+margin-bottom:20px;
+margin-top:15px;
+overflow:hidden;
+padding-bottom:0px;
+padding-top:10px;
+text-align:center;
+width:100%;
+}
+
+/* Notes: viewCat Sub Cat Container */
+.subCat {
+width:210px;
+height:192px;
+margin-left:12px;
+margin-bottom:12px;
+position:relative;
+text-align:center;
+border:1px solid #D6D6D6;
+float:left;
+display:inline; /* IE6 Fix */
+}
+
+.subCat table {
+height:160px;
+width:100%;
+}
+
+.subCatName {
+color:#B1B1B1;
+display:block;
+font-size:14px;
+padding:5px;
+text-decoration:none;
+width:200px;
+border-top:1px solid #D6D6D6;
+font-weight:bold;
+margin:0px;
+background:#FCFCFC;
+position:absolute;
+bottom:0px;
+left:0px;
+}
+
+/* Notes: viewCat Product Container */
+.viewCatProduct {
+background:#FFFFFF url(../styleImages/backgrounds/latestProdBG.gif) repeat-x scroll center bottom;
+border-bottom:1px solid #E8E7E7;
+border-left:1px solid #E8E7E7;
+border-right:1px solid #E8E7E7;
+margin-top:20px;
+position:relative;
+width:100%;
+}
+
+/* Notes: viewCat Product Name Container */
+h2.txtViewCatProductName {
+background:transparent url(../styleImages/backgrounds/cat_mid.gif) repeat-x scroll center top;
+height:30px;
+position:relative;
+color:#999999;
+font-size:13px;
+margin-top:0pt;
+padding-left:15px;
+padding-right:15px;
+padding-top:8px;
+}
+
+/* Notes: viewCat Product Thumbnail */
+.viewCatProductImage {
+float:left;
+height:130px;
+margin-top:5px;
+width:130px;
+margin-left:5px;
+}
+
+/* Notes: viewCat Product Details Container */
+.viewCatProductDetails {
+float:left;
+margin-left:15px;
+margin-right:15px;
+width:510px;
+display:inline;
+}
+
+/* Notes: viewCat Short Product Description Container */
+.txtviewCatProductDescription {
+color:#666666;
+font-size:12px;
+line-height:16px;
+margin-bottom:5px;
+}
+
+/* Notes: viewCat Button Container */
+.viewCatProductButtons {
+margin-left:-3px;
+}
+
+/* Notes: viewCat error - product options must be selected */
+.AJAX-options {
+display:none;
+margin-bottom:10px;
+margin-top:15px;
+margin-bottom:15px !important;
+}
+
+/* Notes: viewCat error - product options must be selected (icon) */
+.AJAX-opt {
+background:transparent url(../styleImages/backgrounds/exclamation.gif) no-repeat scroll center;
+display:none;
+height:22px;
+position:absolute;
+right:7px;
+top:7px;
+width:23px;
+}
+
+/* Notes: Error notice */
+.errorStatus, .loginStatus, .forgotPassword, .newUser, .editAddress, .gateway, .noItems {
+background:#FFF2F2 url(../styleImages/backgrounds/exclamation.gif) no-repeat scroll 8px 9px;
+border:1px solid #DFDFDD;
+color:#636363;
+margin-bottom:10px;
+padding:10px 10px 10px 35px;
+}
+
+/* Notes: Error notice */
+.errorStatus {
+margin-top:10px;
+}
+
+/* Notes: Success notice */
+.successStatus {
+background:#F7FDEE url(../styleImages/backgrounds/tick.gif) no-repeat scroll 8px 9px;
+border:1px solid #DFDFDD;
+color:#636363;
+margin-bottom:10px;
+padding:10px 10px 10px 35px;
+}
+
+/* Notes: Information notice */
+.infoStatus {
+background:#FFFFFF url(../styleImages/backgrounds/help.gif) no-repeat scroll 8px 9px;
+border:1px solid #DFDFDD;
+color:#636363;
+margin-bottom:10px;
+padding:10px 10px 10px 35px;
+}
+
+/* Notes: Information notice - Link */
+.infoStatus a {
+color:#3A89C9;
+text-decoration:none;
+}
+
+/* Notes: Textbox Field */
+.textbox {
+background:#FFFADB url(../styleImages/backgrounds/fieldbg_large.png) repeat-x scroll center top;
+border:1px solid #CBB945;
+color:#776B1B;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:12px;
+padding:6px;
+width:200px;
+}
+
+/* Notes: viewCat Product Name Link */
+a.txtViewCatProductName {
+color:#999999;
+font-size:13px;
+text-decoration:none;
+}
+
+/* Notes: Cart Progress Container */
+.cartProgress {
+margin-top:15px;
+}
+
+/* Notes: Cart Progress - Step 1 */
+#step1, #step2, #step3 {
+background:transparent url(../styleImages/backgrounds/step_1.png) no-repeat scroll center;
+display:none;
+height:26px;
+margin:0pt auto;
+width:350px;
+}
+
+/* Notes: Cart Progress - Step 2 */
+#step2 {
+background:transparent url(../styleImages/backgrounds/step_2.png) no-repeat scroll center;
+}
+
+/* Notes: Cart Progress - Step 3 */
+#step3 {
+background:transparent url(../styleImages/backgrounds/step_3.png) no-repeat scroll center;
+}
+
+/* Notes: Cart Progress - Display Current Step */
+.txtcartProgressCurrent {
+display:block !important;
+}
+
+/* Notes: Cart Column Title */
+.tdcartTitle {
+background:transparent url(../styleImages/backgrounds/tab.png) repeat-x scroll center bottom;
+border-bottom:1px solid #E1E1E1;
+border-top:1px solid #E1E1E1;
+color:#4F4F4F;
+font-size:120%;
+font-weight:700;
+height:30px;
+}
+
+/* Notes: Cart Row */
+.cartRow {
+height:60px;
+}
+
+/* Notes: Cart Row (odd) */
+.tdcartOdd, .tdcartEven {
+border-bottom:1px solid #E1E1E1;
+padding-bottom:10px;
+padding-top:10px;
+}
+
+/* Notes: Cart Row (even) */
+.tdcartEven {
+background-color:#F8F8F8;
+}
+
+/* Notes: Cart Product Title */
+.cartProdTitle {
+padding-left:32px;
+padding-right:10px;
+position:relative;
+}
+
+/* Notes: Promotional Code text */
+.promoCode {
+border-bottom:1px dotted #333333;
+}
+
+/* Notes: Promotional Code text - Hover */
+.promoCode:hover {
+cursor:help;
+}
+
+/* Notes: Cart Sub-Total Row */
+.tdCartSubTotal {
+padding-top:20px;
+}
+
+#invAddrTable td {
+padding-left:10px;
+}
+
+#invAddrTable td strong {
+color:#666666;
+font-size:120%;
+font-weight:700;
+}
+
+/* Notes: Cart Product Options Selected */
+.cartOption {
+background:transparent url(../styleImages/backgrounds/dotted_arrow_light.gif) no-repeat scroll 4px 3px;
+margin-top:3px;
+padding-left:22px;
+padding-top:4px;
+}
+
+/* Notes: Cart Update Button */
+.update, .continue {
+background:#F2F2F2 url(../styleImages/backgrounds/cart_go.gif) no-repeat scroll 8px 9px;
+border:1px solid #DFDFDD;
+color:#636363;
+display:block;
+margin-bottom:10px;
+padding:10px 15px 10px 35px;
+float:left;
+}
+
+.update {
+padding-left:10px;
+background-image:none;
+}
+
+.continue {
+background-image:url(../styleImages/backgrounds/cart_go.gif);
+float:right;
+text-align:left;
+}
+
+.update:hover, .continue:hover {
+background-color:#F9F9F9;
+}
+
+.loginStatus {
+background:#FFFFFF url(../styleImages/backgrounds/help.gif) no-repeat scroll 8px 9px;
+width:641px;
+margin-top:15px;
+}
+
+.forgotPassword {
+background:#FFFFFF url(../styleImages/backgrounds/key.gif) no-repeat scroll 8px 9px;
+}
+
+.newUser {
+background:#FFFFFF url(../styleImages/backgrounds/user_go.gif) no-repeat scroll 8px 9px;
+}
+
+.editAddress {
+background:#F2F2F2 url(../styleImages/backgrounds/page_white_edit.gif) no-repeat scroll 8px 9px;
+}
+
+.gateway {
+background:#F2F2F2 url(../styleImages/backgrounds/lock_go.gif) no-repeat scroll 8px 9px;
+margin:3px;
+width:70px;
+display:block;
+}
+
+.noItems {
+background:#FFFFFF url(../styleImages/backgrounds/cart_error.gif) no-repeat scroll 8px 9px;
+}
+
+.newUser:hover, .forgotPassword:hover, .editAddress:hover, .gateway:hover, .noItems:hover {
+background-color:#F9F9F9;
+}
+
+/* Notes: Login Field Label */
+.fieldLabel {
+color:#666666;
+font-size:120%;
+font-weight:700;
+}
+
+/* Notes: Cart Field Names */
+.cartAdd {
+color:#666666;
+font-size:120%;
+font-weight:700;
+}
+
+/* Notes: Submit Button */
+.submit {
+background:#D9DFDF url(../styleImages/backgrounds/button-bg.jpg) repeat-x scroll 0pt 50%;
+border:3px double #B9C7C8;
+color:#6E7777;
+font-size:11px;
+padding:3px 5px !important;
+text-transform:uppercase;
+}
+
+/* Notes: Registration Text Field */
+.regbox {
+background:#FFFADB url(../styleImages/backgrounds/fieldbg_large.png) repeat-x scroll center top;
+border:1px solid #CBB945;
+color:#776B1B;
+float:left;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:12px;
+padding:6px 23px 6px 6px;
+width:182px;
+}
+
+/* Notes: SiteDoc Body */
+.docBody {
+background:#FDFDFD url(../styleImages/backgrounds/latestProdBG.gif) repeat-x scroll center bottom;
+padding:15px;
+border:1px solid #E9E9E9;
+width:656px;
+margin-top:10px;
+}
+
+.accountPersonalInfo, .accountOrderHistory, .accountChangePassword, .accountNewsletter, .accountLogout {
+background:#FFFFFF url(../styleImages/icons/personalInfo.gif) no-repeat scroll left top;
+border-bottom:1px dotted #E1E1E1;
+line-height:20px;
+margin-bottom:10px;
+padding-bottom:25px;
+padding-left:70px;
+padding-top:20px;
+width:615px;
+}
+
+.accountPersonalInfo {
+margin-top:20px;
+}
+
+.accountOrderHistory {
+background:transparent url(../styleImages/icons/orders.gif) no-repeat scroll left center;
+}
+
+.accountChangePassword {
+background:transparent url(../styleImages/icons/changePassword.gif) no-repeat scroll left center;
+}
+
+.accountNewsletter {
+background:transparent url(../styleImages/icons/newsletter.gif) no-repeat scroll left center;
+}
+
+.accountLogout {
+background:transparent url(../styleImages/icons/logout.gif) no-repeat scroll left center;
+}
+
+/* Notes: Default Link */
+a.txtDefault {
+color:#333333;
+}
+
+/* Notes: Out Of Stock */
+.txtOutOfStock {
+color:red;
+}
+
+/* Notes: Generic Style.  Fills container with link */
+.linkFill {
+display:block;
+width:100%;
+height:100%;
+}
+
+/* Notes: CubeCart Copyright */
+.txtCopyright {
+text-align:center;
+color:#999999;
+}
+
+/* Notes: CubeCart Copyright */
+div.txtCopyright {
+margin-bottom:10px;
+}
+
+/******************************
+START: VIEWPROD TABS
+*******************************/
+
+/* Notes: viewProd Tabs Container */
+ul.tabMenu {
+margin:0;
+list-style:none;
+padding:0;
+position:relative;
+}
+
+/* Notes: viewProd Tab */
+ul.tabMenu li {
+float:left;
+margin-right:5px;
+position:relative;
+}
+
+/* Notes: viewProd Additional Images Tab - remove if no additional images */
+ul.tabMenu li.images {
+display:none;
+}
+
+/* Notes: viewProd Tab Link */
+ul.tabMenu li a {
+border-bottom:1px solid #E1E1E1;
+border-left:1px solid #E1E1E1;
+border-right:1px solid #E1E1E1;
+border-top:1px solid #E1E1E1;
+color:#4F4F4F;
+display:block;
+font-size:14px;
+margin:1px 1px 1px 0pt;
+padding:6px 10px;
+text-decoration:none;
+background:url(../styleImages/backgrounds/tab_hover.gif) repeat-x bottom;
+position:relative;
+}
+
+/* Notes: viewProd Tab Link - selected style */
+ul.tabMenu li a.selected {
+background:#FCFCFC;
+border-bottom:1px solid #FCFCFC;
+display:block;
+}
+
+/* Notes: viewProd Tab Content */
+div.tabContent {
+margin-top:-2px;
+padding:10px;
+border:1px solid #E1E1E1;
+background-color:#FCFCFC;
+}
+
+/******************************
+END: VIEWPROD TABS
+*******************************/
+
+
+
+/******************************
+START: VIEWPROD PRODUCT REVIEW
+*******************************/
+
+/* Notes: Container for each review */
+.review {
+border:1px solid #E9E9E9;
+background:#FFFFFF url(../styleImages/backgrounds/latestProdBG.gif) repeat-x scroll center bottom;
+margin-bottom:15px;
+margin-left:5px;
+margin-right:5px;
+margin-top:0px;
+position:relative;
+}
+
+/* Notes: No Reviews */
+span.noReviews {
+margin-left:5px;
+position:relative;
+}
+
+/* Notes: Add Review Button */
+span.addReview {
+background:#F9F9F9 url(../styleImages/backgrounds/page_white_edit.gif) no-repeat scroll 8px 9px;
+border:1px solid #DFDFDD;
+color:#636363;
+display:inline;
+margin-top:10px;
+margin-left:5px;
+margin-bottom:5px;
+padding:10px 15px 10px 35px;
+float:left;
+position:relative;
+}
+
+/* Notes: Add Review Link */
+span.addReview a {
+color:#333333;
+}
+
+/* Notes: Title Bar for review */
+.reviewTitleBar {
+background-color:#DDDDDD;
+font-weight:bold;
+text-transform:capitalize;
+padding-left:5px;
+padding-right:5px;
+padding-top:2px;
+padding-bottom:2px;
+font-family:Arial, Helvetica, sans-serif;
+position:relative;
+}
+
+/* Notes: span containing reviewer's name (within title bar) */
+span.reviewer {
+float:left;
+position:relative;
+}
+
+/* Notes: span containing review date (within title bar) */
+span.reviewDate {
+float:right;
+font-weight:normal;
+position:relative;
+}
+
+/* Notes: Container for stars and comments */
+.reviewDetails {
+padding:10px;
+}
+
+/* Notes: Container for stars */
+.reviewStars {
+}
+
+/* Notes: Container for review comments */
+.reviewComments {
+margin-left:2px;
+margin-top:10px;
+position:relative;
+}
+
+#makeReview div.errorStatus, #makeReview div.successStatus, #makeReview div.infoStatus {
+width:641px;
+margin-top:15px;
+}
+
+#message {
+background:#FFFADB url(../styleImages/backgrounds/fieldbg_large.png) repeat-x scroll center top;
+border:1px solid #CBB945;
+color:#776B1B;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:12px;
+padding:6px;
+width:200px;
+}
+
+fieldset#reviewSet, #regForm fieldset {
+border:1px solid #E1E1E1;
+margin-bottom:15px;
+margin-left:0;
+padding:15px;
+background:#FFFFFF url(../styleImages/backgrounds/latestProdBG.gif) repeat-x scroll center bottom;
+width:656px;
+}
+
+#reviewSet legend, #regForm legend {
+color:#666666;
+font-size:150%;
+padding-left:5px;
+padding-right:5px;
+background-color:#FFF;
+}
+
+#reviewSet p, #regForm p {
+border-bottom:1px dashed #E9E9E9;
+line-height:200%;
+margin:0pt;
+padding-bottom:10px;
+padding-top:10px;
+}
+
+#reviewSet label, #regForm label {
+color:#666666;
+display:block;
+float:left;
+font-size:120%;
+font-weight:700;
+width:160px;
+}
+
+#reviewSet p input.submit {
+background:#D9DFDF url(../styleImages/backgrounds/button-bg.jpg) repeat-x scroll 0pt 50%;
+border:3px double #B9C7C8;
+color:#6E7777;
+font-size:11px;
+padding:3px 5px !important;
+text-transform:uppercase;
+}
+
+.mandatory {
+background:transparent url(../styleImages/backgrounds/asterisk_orange.gif) no-repeat scroll 0%;
+display:block;
+float:left;
+height:16px;
+margin-left:-21px;
+margin-top:5px;
+width:16px;
+}
+
+#add_2 {
+margin-left:160px;
+}
+
+/******************************
+END: VIEWPROD PRODUCT REVIEW
+*******************************/
+
+
+/************************
+START: TOOLTIPS
+*************************/
+
+#tt {
+position:absolute;
+display:block;
+background:url(../styleImages/backgrounds/tt_left.gif) top left no-repeat;
+font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+#tttop {
+display:block;
+height:5px;
+margin-left:5px;
+background:url(../styleImages/backgrounds/tt_top.gif) top right no-repeat;
+overflow:hidden;
+}
+
+#ttcont {
+display:block;
+padding:2px 12px 3px 7px;
+margin-left:5px;
+background:#666;
+color:#fff;
+}
+
+#ttbot {
+display:block;
+height:5px;
+margin-left:5px;
+background:url(../styleImages/backgrounds/tt_bottom.gif) top right no-repeat;
+overflow:hidden;
+}
+
+/************************
+END: TOOLTIPS
+*************************/
+
+.tabs h1, .tabs h2, .tabs h3 {
+	background:none;
+	padding:0px;
+	margin:0px;
+	border:none;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2em;
+	color:#000;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+.tabs h2 {
+	font-size:1.5em;
+	color:#333;
+}
+
+.tabs h3 {
+	font-size:1.3em;
+	color:#666;
+}
